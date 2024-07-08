@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+    margin-right: 20px;
+}
+nav ul li svg{
+    display: flex;
+    margin-right: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color:black ;
+}
+p{
+    color: black;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://int.cosy.bmw.cloud/bmwweb/cosySec?COSY-EU-100-7331RYechZ7dyKBJHS91Zys8%25P6EaUlTfNwqMJfldKShts5eqKRGZIXRu3mzzOSs5m%2565ezICP4Ws46Iq5gmvhmXPIjyXqlWzkATjHGg7A9DuBoc9VAf6EQRyapRBgJnr0KEFhzUG4fXx7IEL3hSF2%25P61RO8m5fbiwWhcfD2aTjl6JOY6dnuLR2DqXtQmStOpqifGzqIbVBnvzabenlO30GiyXq2FgXAXHXGmv6jQ%25gnQ2YDafDuZjmqn1nwHDyLOEO2iqTJIsIefL3uBrE36JdSeZsc3uzVMRr97SkNh5ZzTVA0ogRcZNF4Hv5xQ0Kc%252yG84WxfjTg9cP81D3VGxbUEqdr889GsLzZBUiprJ849Gw6ZuUwWptYRSGtc67m5Vp4EYCygN6KgmlTv0YheyX324motTQdjcyiL3azDxTFYdnkq83wCzOALU0OXkIFJG49QABKupciIFeWS6xybKMPVY8%25VWhbNmUfCPo90yG1abHi4TpEO9%25wc36PjiftxdYbew178zQFotECUkaB17slGAn59CrXpFOgSlZQ6KIvNXRaYWB4EQ5nmPecxagOybMe3nvIT9hS4O2B3ioEVIjedwHhbBDMztV9zeqhk7NggMLoAC06hhJHFl4W3ou%25KX%25nIHSfWQfyz%25V1Pa1XTfNEbnEUy10s9OsB6E4riIreKscZwBZ4zrxRLRQrDHW0%25IA2);
+    background-position: center;
+    background-size: cover;
+}
+
+button{
+    display: inline-block;
+    background-color: #ff523b;
+    color:beige;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 20px;
+    border-style: none;
+    margin-left: 20px;
+    transition: background 0.5s;
+ 
+}
+button:hover{
+    background: #563434;
+}
+.entercompetitions{
+    display:inline-block;
+    background-color:#DC143C ;
+    color:#b8860b ;
+    padding: 20px 35px;
+    margin:30px 2px;
+    cursor: pointer;
+    margin-left: 20%;
+    font: bold;
+    font-size: 30px;
+
+}
+.carawards{
+  vertical-align: middle;
+  margin-left: 40%;
+}
+.cars{margin: 70px 0;
+    
+}
+.col-1{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-1 img{
+    width:100%;
+}
+.row{
+    display: flex;
+}
+.col-1{
+    flex: 33.33%;
+    padding: 5px;
+  
+}
+.audi{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-page{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: URL(bg.jpg);
+background-size: cover;
+background-position: center;
+}
+.container-3{
+    width: 420px;
+    background: transparent;
+   border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    color: white;
+    border-radius: 13px;
+    padding: 30px 40px;
+}
+.container-3 h1{
+    text-align: center;
+    font-size: 39px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+
+}
+.social-login{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.google-btn,
+.apple-button{
+    width: 45%;
+    height: 45px;
+    background: transparent;
+    border:2px solid rgba(255, 255, 255, .2);
+    border-radius: 49px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,  .2);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    line-height: 1;
+    transition: all .4s ease-in-out;
+}
+.container-3 .form-input{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+
+.form-input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+   border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+    
+
+}
+.form-input input::placeholder{
+    color: white;
+}
+svg{
+    position:absolute;
+    right: 25px;
+   top: 25%;
+    
+transform: translate(-50%);
+
+}
+.container-3 .btn-2{
+    width: 100%;
+    height: 45px;background: white;
+border: none;
+outline: none;
+border-radius: 40px;
+cursor: pointer;
+font-size: 16px;
+color: black;
+font-weight: 550;
+transition: all .4s ease-in-out;
+
+}
+
+.container-3 .btn-2:hover{
+    transform: scale(1.0s);
+}
+.login-link p a{
+    color: white;
+    text-decoration: none;
+font-weight: 500;
+
+
+}
+.login-link p a:hover{
+    text-decoration: underline;
+}
+.container-3 .login-link{
+    font-size: 14.5px;
+text-align: center;
+margin: 20px 0 15px;
+
+}
+.js-competition-cars{
+    background-color: gray;
+    display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+color: black;
+}
+.car{ 
+    width: 300px;
+margin: 20px;
+padding: 15px;
+border: 3px solid #fff;
+outline: 3px solid gray;
+outline-offset: 10px;
+border-radius: 5px;
+text-align: center;
+
+
+}
+.car img{
+width: 259px;
+height: auto;
+border-radius: 5px;
+}
+.car h2{
+   margin-top: 10px;
+   color: #000;
+}
+.btn-3{
+    display: inline-block;
+padding: 8px 20px;
+background-color: #007bff;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+margin-top: 10px;
+}
+.spot-ball{
+    margin: 0;
+padding: 0;
+height: 100%;
+}
+.container-4{
+    position: relative;
+width: 100%;
+height: 100%;
+}
+.football-field{
+    width: 100%;
+    height: auto;
+}
+.spot{
+    position: absolute;
+width: 20px;
+height: 20px;
+background-color: red;
+border-radius: 50%;
+cursor: pointer;
+}
+
+
+.competition-prize-giveaways{
+    width: 100%;
+height: 70vh;
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(MDC.Mercedez\ benz\ AMG.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.image-container-5{
+    margin-left: 0px;
+justify-content: center;
+
+}
+.image-container-5 img{
+width: 1oopx;
+height: 100px;
+
+}
+b{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.win-a-car{
+    padding: 20px;
+width: 100%;
+}
+#enter{
+   font-size: large;
+
+}
+.more-prizes{
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+#openPopup {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.popup {
+    position: relative;
+    display: flex; /* Hidden by default */
+    position: fixed;
+    margin-bottom: 0;
+    background-color: #fff;
+    padding: 15px 16px 32px 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    position: absolute;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    bottom: -50vh;
+justify-content: center;
+align-items: center;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.ticket-info img {
+    width: 100%;
+    height: auto;
+}
+
+.quantity, .quick-select {
+    margin: 20px ;
+}
+
+.quantity button, .quick-select button {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.add-to-basket {
+    padding: 10px 20px;
+    background-color: #f0ad4e;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+footer{
+width: 100%;
+position: absolute;
+background: linear-gradient(to right,#00093c, #2d0b00);
+
+padding: 100px 0 30px;
+line-height: 20px;
+
+}
+.row-3{
+    width: 85%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: space-between;
+
+}
+.col-4{
+    flex-basis: 25%;
+    margin-bottom: 30px;
+}
+.logo-footer{
+    width: 100px;
+  top: 0;
+
+}
+.row-3,.col-4,p{
+    color: #fff;
+}
+.col-4 h3{
+    width: fit-content;
+margin-bottom: 40px;
+position: relative;
+
+}
+.e-mail-address{
+    border-bottom: 1px solid #ccc ;
+
+
+
+    width: fit-content;
+}
+
+ul, li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul, li, a{
+    text-decoration: none;
+color: #fff;
+}
+
+.social-media-icons, .fa-brands{
+    width: 40px;
+   
+    border-radius: 30%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin: 15px;
+    cursor: pointer;
+    bottom: 9px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
