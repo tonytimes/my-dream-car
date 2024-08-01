@@ -32,20 +32,20 @@
 <b>tickets at kes 1000</b><br>
 <button id="openPopup"><b>Enter now</b></button>
 <!-- Popup Container -->
-<div id="popup" class="popup">
+<div id="popup" class="popup" style="display: none;">
     <div class="popup-content">
         <span class="close-btn" id="closePopup">&times;</span>
         <h2>Buy tickets</h2>
         <div class="ticket-info">
-            <img src="bmw-m4 cs.jpg" alt="BMW M4 CS">
-            <p>BMW M4 CS</p>
-            <p>kes 500</p>
+            <img src="rangerovervogue.jpg" alt="BMW M4 CS">
+            <p>range rover vogue</p><br>
+            <p>kes 1000</p>
         </div>
         <div class="quantity">
-            <label for="quantity">Quantity</label>
+            <label for="quantity" style=" position: absolute; top: 300px;">Quantity</label>
             <button id="decrease">-</button>
-            <input type="text" id="quantity" value="2" readonly width="20px">
-            <button id="increase">+</button>
+            <input type="text" id="quantity" value="2" readonly width="5px">
+            <button id="increase" style="margin-right: 40px;">+</button>
         </div>
         <div class="quick-select">
             <button class="quick-select-btn">10 tickets</button>
@@ -56,6 +56,7 @@
         <button class="add-to-basket">Add to Basket</button>
     </div>
 </div>
+
 
 <b class="more-prizes">more prizes</b>
 <section class="cars">

@@ -10,6 +10,93 @@
         <meta name="description" content="win a car with my dream car kenya.Buy tickets for as low as kes 500 to win the car of your dreams">
         <meta property="og:image" content="">
        <link rel="stylesheet" href="style.css">
+       <style>
+        .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    margin-top: 20px;
+    flex: 1;
+    vertical-align: middle;
+    justify-content: center;
+    width: 75%;
+    height: auto;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 350px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+       </style>
        <script src="https://kit.fontawesome.com/20dcccb87f.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -28,7 +115,7 @@
             </div>
             <div class="navbar">
                 <div class="logo">
-                    <img src="c:\Users\user\Pictures\My Dream Car Logo.png" width="100px">
+                   
                 </div>
                 <nav>
                     <ul>
@@ -37,8 +124,8 @@
                         <li><a href="">winners</a></li>
                         <li><a href="login.html">log in</a></li>
                        <li> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart" aria-label="view cart">
-                            <circle cx="9" cy="21" r="1"></circle>
-                            <circle cx="20" cy="21" r="1"></circle>
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
                             <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
                           </svg></li>
                     
@@ -47,40 +134,46 @@
                 </nav>
             </div>
             <div class="col-2"></div>
-            <h1>win your<br> dream car</h1>
+            <h1>win your dream car</h1>
             <p>car giveaway. Win a car of your choise with amazing competitions</p>
             <button onclick="window.location.href='cars.html'">ENTER NOW &#8594;</button>
-              
-        
-            </div>
             
-    
-        </header>
-    
-            
-    </div>
-    </div>
-    <div class="carawards">
-    <h1>explore our competitions</h1><br>
-    <a href=""> <img src="https://th.bing.com/th?id=OSK.HEROZTQXZZNtlExypHTWGyBfLQS9r-gDhNMLAEXTzBJTf7s&w=312&h=200&c=15&rs=2&o=6&dpr=1.5&pid=SANGAM" width="400px" height="300px"> </a>
-   <br>
-    <button class="entercompetitions"> enter now</button>
-</div>
-    <!--featured cars-->
-    <div class="cars">
-        <div class="row">
-            <div class="col-1">
-                <img src="9b23725f717c40a297e761775410c104.jpg" class="audi" width="100%">
-            </div>
-            <div class="col-1">
-                <img src="rangerovervelarhse/1f1ea7652c3e488c8e00497027bb258c.jpg" class="audi" width="100%">
-            </div>
-            <div class="col-1">
-                <img src="newrangeroversport/b12c98ec0e98469494cbe36a649b8935.jpg" class="audi" width="100%">
-            </div>
+            </header>  
         </div>
-    </div>
-</div>
+            </div>
+            </div>
+
+
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="landroverdefender110/0c7a1e27bdfd477cac4d8f893e87110d.jpg">
+                    <div class="text">Caption One</div>
+                </div>
+        
+                <div class="mySlides fade">
+                    <img src="porsche718caymans/207430e2a4304f61922e8aef495aa770.jpg">
+                    <div class="text">Caption Two</div>
+                </div>
+        
+                <div class="mySlides fade">
+                    <img src="newrangeroversport/c572a461b49647e1ac7f836e87550621.jpg">
+                    <div class="text">Caption Three</div>
+                </div>
+        
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+        
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+        
+    
+            
+    
 
 <footer>
   <div class="row-3">
@@ -125,7 +218,36 @@
 
 </footer>
     
+<script>
+    /* script.js */
+let slideIndex = 1;
+showSlides(slideIndex);
 
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+}
+
+</script>
 
 
     

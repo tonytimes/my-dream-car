@@ -1,5 +1,5 @@
  const cars = [{
-   image: 'MDC.landcruiser.jpg',
+  image: 'MDC.landcruiser.jpg',
    name: 'Landcruiser GR sport',
    description: 'description of car'
 },{
@@ -53,8 +53,14 @@ cars.forEach((car) =>{
 });
 
 
-console.log(carsHTML)
+
 
 document.querySelector('.js-competition-cars')
 .innerHTML = carsHTML;
 
+document.querySelectorAll('.js-view-details')
+.forEach((a) => {
+a.addEventListener('click' , () => {
+    console.log('added car')
+})
+})

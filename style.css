@@ -25,6 +25,10 @@ nav ul li{
 nav ul li svg{
     display: flex;
     margin-right: 20px;
+    top: 5px;
+    right: 0;
+    margin-left: 5px;
+
 }
 
 
@@ -53,6 +57,7 @@ button{
     border-style: none;
     margin-left: 20px;
     transition: background 0.5s;
+    
  
 }
 button:hover{
@@ -213,6 +218,7 @@ margin: 20px 0 15px;
 justify-content: space-around;
 flex-wrap: wrap;
 color: black;
+margin-top: 10px;
 }
 .car{ 
     width: 300px;
@@ -275,6 +281,23 @@ background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(MDC.Merce
 background-position: center;
 background-size: cover;
 }
+.competition-prize-giveaways h2{
+position: absolute;
+justify-content: center;
+align-items: center;
+flex: 1;
+margin-left: 10px;
+color: #ff523b;
+
+
+}
+.competition-prize-giveaways .btn-audiRS{
+    position: absolute;
+justify-content: center;
+align-items: center;
+flex: 1;
+margin-top: 50px;
+}
 
 .image-container-5{
     margin-left: 0px;
@@ -316,11 +339,17 @@ button {
 }
 
 .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
     position: relative;
-    display: flex; /* Hidden by default */
+    display: none; /* Hidden by default */
     position: fixed;
     margin-bottom: 0;
-    background-color: #fff;
+ 
     padding: 15px 16px 32px 16px;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
@@ -353,9 +382,14 @@ align-items: center;
     width: 100%;
     height: auto;
 }
-
+.quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
 .quantity, .quick-select {
-    margin: 20px ;
+    margin: 10px ;
 }
 
 .quantity button, .quick-select button {
@@ -371,6 +405,7 @@ align-items: center;
     font-size: 16px;
 }
 footer{
+    margin-top: 15PX;
 width: 100%;
 position: absolute;
 background: linear-gradient(to right,#00093c, #2d0b00);
@@ -437,19 +472,4 @@ color: #fff;
     bottom: 9px;
 }
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
 
