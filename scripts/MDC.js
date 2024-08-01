@@ -1,4 +1,4 @@
-export const cars = [{
+ const cars = [{
    image: 'MDC.landcruiser.jpg',
    name: 'Landcruiser GR sport',
    description: 'description of car'
