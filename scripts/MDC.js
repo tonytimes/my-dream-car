@@ -1,5 +1,5 @@
  const cars = [{
-  image: 'landcruiseGRbody.jpg',
+  image: 'cars folder/toyotalandcruisergrsport/9c8744627ef249059678daf3ec668409.jpg',
    name: 'Landcruiser GR sport',
    description: 'description of car'
 },{
