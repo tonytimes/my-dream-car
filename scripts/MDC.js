@@ -1,37 +1,37 @@
  const cars = [{
-  image: 'MDC.landcruiser.jpg',
+  image: 'landcruiseGRbody.jpg',
    name: 'Landcruiser GR sport',
    description: 'description of car'
 },{
-image: 'db0d5ada2bec4331ac945b065e04b174.jpg',
+image: 'cars folder/audirs7sportback/16464b7a982048cfa1f5352abe6eb2e0.jpg',
 name: 'audi RS',
 description: 'description of car'
 }, {
-    image: 'bmw-m4 cs.jpg',
+    image: 'cars folder/bmwm4cs/952e3da3a5b54bd292f4930e52ab0de6.jpg',
 name: 'BMW M4 CS',
 description: 'description of car'
 }, {
-    image: 'MDC.PRIZE GIVEAWAY CARS.JPG.jpg',
+    image: 'cars folder/mercedesglc63scoupeestate/3cd1e65cd54d4378999e7b65af34003e.jpg',
 name: 'mercedez GL 350 D',
 description: 'description of car'
 }, {
-    image: 'rangeroverlodge.jpg',
-name: 'rangerover lodge',
+    image: 'cars folder/rangerovervelarhse/89a73b94d9524194a371fa6d0b1a33e8.jpg',
+name: 'rangerover velar hse',
 description: 'description of car'
 }, {
-    image: 'rangerovervogue.jpg',
+    image: 'cars folder/rangerovervogueautobiographyhse/22a336aeaac54999b9b22520af68d2d3.jpg',
 name: 'Range Rover vogue',
 description: 'description of car'
 }, {
-    image: 'landroverdefender110/0c7a1e27bdfd477cac4d8f893e87110d.jpg',
+    image: 'cars folder/landroverdefender110/0c7a1e27bdfd477cac4d8f893e87110d.jpg',
 name: 'Land Rover Defender 110',
 description: 'description of car'
 }, {
-    image: 'audittrs/IMG-20240506-WA0015.jpg',
+    image: 'cars folder/audittrs/IMG-20240506-WA0015.jpg',
 name: 'Audi  ttrs',
 description: 'description of car'
 }, {
-    image: 'porsche718caymans/7580329f60494df7860c21780a942cdd.jpg',
+    image: 'cars folder/porsche718caymans/7580329f60494df7860c21780a942cdd.jpg',
 name: 'Porcche 718 caymans',
 description: 'description of car'
 }]
