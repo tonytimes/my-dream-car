@@ -277,7 +277,7 @@ cursor: pointer;
 .competition-prize-giveaways{
     width: 100%;
 height: 70vh;
-background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(MDC.Mercedez\ benz\ AMG.jpg);
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(9bd2522291bf4a5cb51153b56d583675.jpg);
 background-position: center;
 background-size: cover;
 }
@@ -297,6 +297,7 @@ justify-content: center;
 align-items: center;
 flex: 1;
 margin-top: 50px;
+
 }
 
 .image-container-5{
